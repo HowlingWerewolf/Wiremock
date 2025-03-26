@@ -1,0 +1,8 @@
+services:
+  mock:
+      image: wiremock:v1.0
+      build:
+        dockerfile: ./Dockerfile
+        context: .
+      ports:
+        - "8081:8081"

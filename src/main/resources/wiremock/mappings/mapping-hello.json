@@ -1,0 +1,18 @@
+{
+  "uuid": "",
+  "request": {
+    "urlPattern": ".*/hello",
+    "method": "GET"
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "body-hello.json",
+    "headers": {
+      "Authorization": "Bearer hello",
+      "Server": "",
+      "Content-Type": "application/json",
+      "Transfer-Encoding": "chunked",
+      "Date": "Wed, 13 Sep 2200 15:38:53 GMT"
+    }
+  }
+}

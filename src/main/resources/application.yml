@@ -1,0 +1,10 @@
+spring:
+  main:
+    web-application-type: none
+  application:
+    name: Wiremock
+wiremock:
+  server:
+    port: 8081
+    files: classpath:BOOT-INF/classes/wiremock
+    stubs: classpath:BOOT-INF/classes/wiremock/mappings
